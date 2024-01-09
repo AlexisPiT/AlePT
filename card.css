@@ -11,12 +11,14 @@
     background-color: #34495E ;
     margin: auto;
     border-radius: 10px;
-    padding: 30px;
+    width: 50%;
 }
 
 .card_footer{
     display: flex;
     justify-content: space-around;
+    background-color: #1B4F72 ;
+    margin: auto;
 }
 
 .card_image{
@@ -28,7 +30,29 @@
 .card_body{
     text-align: center;
 }
+
+p{
+    
+    padding: 0 15px 0 15px;
+}
+
 .img{
-    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
     padding-top: 30px;
+}
+
+span{
+    background-color: #2C3E50;
+    border-radius: 15px;    
+}
+
+.card_country{
+    padding: 10px;
+}
+
+a{
+    display: inline-block;
+    padding: 20px;
+    color: black;
 }
